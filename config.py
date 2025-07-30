@@ -45,6 +45,9 @@ GIT_TOKEN = getenv(
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NOBITA_BOTS")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NOBITA_BOTS")
 
+BASE_API_URL = getenv("BASE_API_URL", "https://xyz.spotifytech.shop")
+BASE_API_KEY = getenv("BASE_API_KEY", "9d0517037a47eed38c9bf1f0743349a7")
+
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
